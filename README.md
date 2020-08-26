@@ -1,2 +1,2 @@
 # learn-k8s
-some project for k8s
+一些自己学习k8s时部署的东西，备忘．
