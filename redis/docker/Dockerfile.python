@@ -1,0 +1,4 @@
+FROM python:3.8.5-slim-buster
+RUN pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
+    pip3 install kubernetes
+ADD kubeapi-test.py /usr/local/bin
